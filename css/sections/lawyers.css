@@ -39,6 +39,7 @@
 }
 
 .lawyers__card {
+  min-width: 300px;
   position: relative;
   margin-top: 48px;
   max-width: 312px;
@@ -84,6 +85,7 @@
 }
 
 .lawyers__card__hover {
+  min-width: 300px;
   position: absolute;
   z-index: 1;
   opacity: 0;
