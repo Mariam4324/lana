@@ -79,7 +79,6 @@
 
   .services-box:hover .services__subtext {
     display: -webkit-box;
-    max-width: 272px;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -113,7 +112,7 @@
   }
 
   .services__subtext {
-    max-width: 218px;
+
     font-weight: 300;
   }
 

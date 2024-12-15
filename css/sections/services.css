@@ -176,3 +176,9 @@
 .services-skills__subtext {
   margin-top: 0;
 }
+
+.a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
