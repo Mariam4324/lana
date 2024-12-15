@@ -188,3 +188,15 @@
   align-items: center;
   gap: 20px;
 }
+
+.pom__holder {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.pom__pic {
+  width: 80vw;
+}
