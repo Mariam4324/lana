@@ -79,7 +79,7 @@
 
   .services-box:hover .services__subtext {
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
@@ -88,11 +88,12 @@
     padding: 24px 16px 32px;
     min-width: 250px;
     min-height: 215px;
+    height: max-content;
+    margin: 20px auto 0;
   }
 
   .cursor {
     min-width: 250px;
-    min-height: 215px;
   }
 
   .services-box_first:first-child {
@@ -112,7 +113,6 @@
   }
 
   .services__subtext {
-
     font-weight: 300;
   }
 
