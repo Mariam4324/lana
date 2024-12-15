@@ -1,0 +1,57 @@
+@import "./../vars.css";
+
+.header__bottom {
+  width: 100%;
+  position: absolute;
+  top: 52px;
+  z-index: 1;
+  background: rgba(1, 1, 1, 0.76);
+}
+
+.nav {
+  position: relative;
+  padding: 20px 0 28px 0;
+}
+
+.nav__title {
+  color: var(--main-color);
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.nav__subject {
+  font-size: 18px;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.nav__subtitle {
+  margin-top: -10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 150%;
+  text-transform: lowercase;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.nav__right {
+  width: 100%;
+  max-width: 679px;
+}
+
+.nav__item:hover {
+  color: var(--main-color);
+  text-decoration-line: underline;
+}

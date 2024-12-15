@@ -1,0 +1,17 @@
+/* .slider__item:first-child {
+  margin-left: calc((100vw - -container--width) / 2);
+}
+
+.slider__item:last-child {
+  margin-right: calc((100vw - -container--width) / 2);
+}
+
+@media (max-width: calc(-container--width + -responsive--padding)) {
+  .slider__item:first-child {
+    margin-left: -responsive--padding;
+  }
+
+  .slider__item:last-child {
+    margin-right: -responsive--padding;
+  }
+} */

@@ -1,0 +1,90 @@
+.burger {
+  position: absolute;
+  right: 0;
+  display: none;
+  align-items: center;
+}
+
+.burger-flex {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.burger__open {
+  z-index: 70;
+}
+
+.burger__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 90;
+}
+
+.burger__link {
+  display: block;
+  padding: 12px 26px;
+  transition: 0.5s all;
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration: none;
+}
+
+.burger__link:hover {
+  color: #4f8ff0;
+  text-decoration-line: underline;
+}
+
+.burger__checkbox {
+  position: absolute;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  z-index: 100;
+  opacity: 0;
+}
+
+.burger__checkbox:checked {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+}
+
+.burger__checkbox:checked ~ .burger__list {
+  transform: none;
+}
+
+.burger__list {
+  position: fixed;
+  transition: 0.5s all;
+  background: #222;
+  width: 290px;
+  height: 100vh;
+  z-index: 80;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 38px 0;
+  transform: translateX(100%);
+}
+
+.burger__link:not(:first-child) {
+  margin-top: 16px;
+}
+
+.burger__link {
+  display: block;
+}
+
+.burger__overlay {
+  position: fixed;
+  inset: 0 0 0 0;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}

@@ -1,0 +1,6 @@
+.nav__item {
+  color: #fff;
+  transition: 0.5s all;
+  font-weight: 700;
+  line-height: 120%;
+}

@@ -1,0 +1,8 @@
+@import "./../vars.css";
+
+.line {
+  background: var(--main-color);
+  width: 50px;
+  height: 3px;
+  margin-top: 10px;
+}

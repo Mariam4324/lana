@@ -1,0 +1,148 @@
+@import "./../vars.css";
+
+.materials__line {
+  margin: 10px auto 0;
+}
+
+.materials__descr {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 920px;
+  margin-top: 24px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.materials__picture {
+  max-width: 424px;
+  width: 100%;
+  max-height: 270px;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.materials__title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.materials__card {
+  position: relative;
+  max-width: 424px;
+  min-height: 481px;
+  cursor: pointer;
+}
+
+.materials__look {
+  position: absolute;
+  transition: 0.5s all;
+  opacity: 0;
+  background: #fff;
+  padding: 10px;
+  width: 41px;
+  height: 40px;
+}
+
+.materials__bottom {
+  margin-top: 24px;
+  min-width: 336px;
+}
+
+.materials__card:hover .materials__look {
+  opacity: 1;
+}
+
+.materials__blackout {
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s all;
+  width: 424px;
+  height: 270px;
+  background: var(--main-color);
+}
+
+.materials__card:hover .materials__blackout {
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.materials__subtitle {
+  line-height: 150%;
+  transition: 0.5s all;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.materials__card:hover .materials__subtitle {
+  color: var(--main-color);
+}
+
+.materials__date {
+  display: block;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.materials__separator {
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.materials__subline {
+  flex-basis: 315px;
+  height: 1px;
+  background: #f8f5f4;
+}
+
+.materials__text {
+  margin-top: 16px;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.materials__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.materials__cards {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.materials__cards::-webkit-scrollbar {
+  display: none;
+}
+
+.materials__button {
+  transition: 0.5s all;
+  width: 153px;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+.materials__button:hover {
+  background: #fff;
+  color: #4f8ff0;
+}

@@ -1,0 +1,44 @@
+.main__arrows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 192px;
+}
+
+.main__arrow__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback__arrow__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__separatop {
+  margin: 0 8px;
+}
+
+.feedback__separatop {
+  margin: 0 8px;
+}
+
+.main__arrow__btn {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback__arrow__btn {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

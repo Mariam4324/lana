@@ -1,0 +1,113 @@
+.feedback {
+  background: url("../../img/feed_bg.webp") center center/cover no-repeat;
+}
+
+.feedback__title {
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.feedback__card {
+  padding: 32px;
+  max-width: 648px;
+  max-height: 244px;
+  background: #fff;
+  box-shadow: 2px 2px 10px 0px rgba(33, 33, 33, 0.15);
+}
+
+.feedback__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedback__cards {
+  margin-top: 48px;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.feedback__cards::-webkit-scrollbar {
+  display: none;
+}
+
+.feedback__img {
+  border-radius: 50%;
+  max-width: 80px;
+  max-height: 80px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.feedback__comment {
+  margin-left: 24px;
+  text-transform: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.feedback__person {
+  display: flex;
+  align-items: center;
+}
+
+.feedback__name {
+  margin-left: 24px;
+  font-size: 20px;
+  line-height: 150%;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.feedback__text {
+  margin-top: 16px;
+  line-height: 150%;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.feedback__button {
+  transition: 0.5s all;
+  margin-top: 32px;
+  width: 146px;
+}
+
+.feedback__button:hover {
+  background: #fff;
+  color: #4f8ff0;
+}
+
+.feedback__button_gray {
+  transition: 0.5s all;
+  margin-left: 24px;
+  margin-top: 32px;
+  width: 185px;
+}
+.feedback__button_gray:hover {
+  color: #000;
+  border: 2px solid #e6e6e6;
+  background: #fff;
+}
+
+.feedback__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
