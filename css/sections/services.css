@@ -44,6 +44,7 @@
   background: #fff;
   max-width: 424px;
   min-height: 250px;
+  width: 100%;
   padding: 50px 32px;
   transition: 0.5s all;
   height: max-content;
