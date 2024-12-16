@@ -60,13 +60,16 @@
   /* ___________________________________________________ */
 
   .services__holder {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
-    display: grid;
-    grid-template-columns: 1fr;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
+  }
+
+  .card-link {
     margin: 0 auto;
+    display: inline;
   }
 
   .services__title {
